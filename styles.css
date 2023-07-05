@@ -93,24 +93,52 @@ html {
   height: 55px;
   margin: 7px 20px 7px 20px;
   border-radius: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.score-box img {
+  margin-left: 15px;
 }
 
 .reaction-score {
-  background-color: hsl(0, 100%, 67%);
-  opacity: 15%;
+  background-color: hsla(0, 100%, 67%, 0.15);
 }
+
 .memory-score {
-  background-color: hsl(39, 100%, 56%);
-  opacity: 15%;
+  background-color: hsl(39, 100%, 56%, 0.15);
 }
 .verbal-score {
-  background-color: hsl(166, 100%, 37%);
-  opacity: 15%;
+  background-color: hsl(166, 100%, 37%, 0.15);
 }
 
 .visual-score {
-  background-color: hsl(234, 85%, 45%);
-  opacity: 15%;
+  background-color: hsl(234, 85%, 45%, 0.15);
+}
+
+.score-box .type-label {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.reaction-score .type-label {
+  color: hsl(0, 100%, 67%);
+}
+.memory-score .type-label {
+  color: hsl(39, 100%, 56%);
+}
+.verbal-score .type-label {
+  color: hsl(166, 100%, 37%);
+}
+.visual-score .type-label {
+  color: hsl(234, 85%, 45%);
+}
+
+.visual-total-score {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .continue {
