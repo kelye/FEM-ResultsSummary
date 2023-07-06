@@ -40,12 +40,16 @@ html {
 
 .results-container h3 {
   color: hsl(221, 100%, 96%);
+  font-size: 28px;
 }
 
 .results-container h4 {
   margin: 10px 42px 0px 42px;
   text-align: center;
   color: hsl(221, 100%, 96%);
+  font-size: 14px;
+  opacity: 80%;
+  text-wrap: balance;
 }
 
 .score-circle {
