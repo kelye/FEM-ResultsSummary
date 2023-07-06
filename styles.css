@@ -94,7 +94,7 @@ html {
   margin: 7px 20px 7px 20px;
   border-radius: 12px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -118,7 +118,7 @@ html {
 }
 
 .score-box .type-label {
-  font-size: 14px;
+  font-size: 15px;
   margin-left: 10px;
 }
 
@@ -135,10 +135,27 @@ html {
   color: hsl(234, 85%, 45%);
 }
 
-.visual-total-score {
+.icon-type-label {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.summary-total-score {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.summary-total-score p.summary-score {
+  margin: 0;
+  font-size: 15px;
+}
+
+.summary-total-score p.total-score {
+  margin-left: 10px;
+  opacity: 30%;
+  font-size: 15px;
 }
 
 .continue {
